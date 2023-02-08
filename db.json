@@ -1,84 +1,84 @@
 {
-    "productList": [
+    "equipList": [
       {
         "id": 1,
-        "equip-code": "nn",
-        "equip-name": "laptop",
-        "equip-brand": "lg",
-        "equip-title": "그램13",
-        "equip-created": 2021,
+        "equip_code": "nn",
+        "equip_name": "laptop",
+        "equip_brand": "lg",
+        "equip_title": "그램13",
+        "equip_created": 2021,
         "price": 350000,
-        "product_img": "https://gilyeons3bucket.s3.ap-northeast-2.amazonaws.com/%E1%84%80%E1%85%B3%E1%84%85%E1%85%A2%E1%86%B713.png"
+        "equip_img": "https://gilyeons3bucket.s3.ap-northeast-2.amazonaws.com/%E1%84%80%E1%85%B3%E1%84%85%E1%85%A2%E1%86%B713.png"
       },
       {
         "id": 2,
-        "equip-code": "nn",
-        "equip-name": "laptop",
-        "equip-brand": "lg",
-        "equip-title": "그램2022",
-        "equip-created": 2022,
+        "equip_code": "nn",
+        "equip_name": "laptop",
+        "equip_brand": "lg",
+        "equip_title": "그램2022",
+        "equip_created": 2022,
         "price": 870000,
-        "product_img": "https://gilyeons3bucket.s3.ap-northeast-2.amazonaws.com/%E1%84%80%E1%85%B3%E1%84%85%E1%85%A2%E1%86%B72022.jpeg"
+        "equip_img": "https://gilyeons3bucket.s3.ap-northeast-2.amazonaws.com/%E1%84%80%E1%85%B3%E1%84%85%E1%85%A2%E1%86%B72022.jpeg"
       },
       {
         "id": 3,
-        "equip-code": "nn",
-        "equip-name": "laptop",
-        "equip-brand": "lg",
-        "equip-title": "그램 뉴진스 리미티드 에디션",
-        "equip-created": 2023,
+        "equip_code": "nn",
+        "equip_name": "laptop",
+        "equip_brand": "lg",
+        "equip_title": "그램 뉴진스 리미티드 에디션",
+        "equip_created": 2023,
         "price": 1090000,
-        "product_img": "https://gilyeons3bucket.s3.ap-northeast-2.amazonaws.com/%E1%84%80%E1%85%B3%E1%84%85%E1%85%A2%E1%86%B7%E1%84%82%E1%85%B2%E1%84%8C%E1%85%B5%E1%86%AB%E1%84%89%E1%85%B3%E1%84%85%E1%85%B5%E1%84%86%E1%85%B5%E1%84%90%E1%85%B5%E1%84%83%E1%85%B3.png"
+        "equip_img": "https://gilyeons3bucket.s3.ap-northeast-2.amazonaws.com/%E1%84%80%E1%85%B3%E1%84%85%E1%85%A2%E1%86%B7%E1%84%82%E1%85%B2%E1%84%8C%E1%85%B5%E1%86%AB%E1%84%89%E1%85%B3%E1%84%85%E1%85%B5%E1%84%86%E1%85%B5%E1%84%90%E1%85%B5%E1%84%83%E1%85%B3.png"
       },
       {
         "id": 4,
-        "equip-code": "nn",
-        "equip-name": "laptop",
-        "equip-brand": "apple",
-        "equip-title": "M2 맥북 에어13",
-        "equip-created": 2022,
+        "equip_code": "nn",
+        "equip_name": "laptop",
+        "equip_brand": "apple",
+        "equip_title": "M2 맥북 에어13",
+        "equip_created": 2022,
         "price": 1190000,
-        "product_img": "https://gilyeons3bucket.s3.ap-northeast-2.amazonaws.com/%E1%84%86%E1%85%A2%E1%86%A8%E1%84%87%E1%85%AE%E1%86%A8%E1%84%8B%E1%85%A6%E1%84%8B%E1%85%A52022.png"
+        "equip_img": "https://gilyeons3bucket.s3.ap-northeast-2.amazonaws.com/%E1%84%86%E1%85%A2%E1%86%A8%E1%84%87%E1%85%AE%E1%86%A8%E1%84%8B%E1%85%A6%E1%84%8B%E1%85%A52022.png"
       },
       {
         "id": 5,
-        "equip-code": "nn",
-        "equip-name": "laptop",
-        "equip-brand": "apple",
-        "equip-title": "M1 맥북 에어13",
-        "equip-created": 2019,
+        "equip_code": "nn",
+        "equip_name": "laptop",
+        "equip_brand": "apple",
+        "equip_title": "M1 맥북 에어13",
+        "equip_created": 2019,
         "price": 990000,
-        "product_img": "https://gilyeons3bucket.s3.ap-northeast-2.amazonaws.com/%E1%84%86%E1%85%A2%E1%86%A8%E1%84%87%E1%85%AE%E1%86%A8%E1%84%8B%E1%85%A6%E1%84%8B%E1%85%A5M1.png"
+        "equip_img": "https://gilyeons3bucket.s3.ap-northeast-2.amazonaws.com/%E1%84%86%E1%85%A2%E1%86%A8%E1%84%87%E1%85%AE%E1%86%A8%E1%84%8B%E1%85%A6%E1%84%8B%E1%85%A5M1.png"
       },
       {
         "id": 6,
-        "equip-code": "nn",
-        "equip-name": "laptop",
-        "equip-brand": "apple",
-        "equip-title": "M1 맥북 프로14",
-        "equip-created": 2021,
+        "equip_code": "nn",
+        "equip_name": "laptop",
+        "equip_brand": "apple",
+        "equip_title": "M1 맥북 프로14",
+        "equip_created": 2021,
         "price": 1840000,
-        "product_img": "https://gilyeons3bucket.s3.ap-northeast-2.amazonaws.com/%E1%84%86%E1%85%A2%E1%86%A8%E1%84%87%E1%85%AE%E1%86%A8%E1%84%91%E1%85%B3%E1%84%85%E1%85%A914.png"
+        "equip_img": "https://gilyeons3bucket.s3.ap-northeast-2.amazonaws.com/%E1%84%86%E1%85%A2%E1%86%A8%E1%84%87%E1%85%AE%E1%86%A8%E1%84%91%E1%85%B3%E1%84%85%E1%85%A914.png"
       },
       {
         "id": 7,
-        "equip-code": "nn",
-        "equip-name": "laptop",
-        "equip-brand": "apple",
-        "equip-title": "M1 맥북 프로16",
-        "equip-created": 2021,
+        "equip_code": "nn",
+        "equip_name": "laptop",
+        "equip_brand": "apple",
+        "equip_title": "M1 맥북 프로16",
+        "equip_created": 2021,
         "price": 2160000,
-        "product_img": "https://gilyeons3bucket.s3.ap-northeast-2.amazonaws.com/%E1%84%86%E1%85%A2%E1%86%A8%E1%84%87%E1%85%AE%E1%86%A8%E1%84%91%E1%85%B3%E1%84%85%E1%85%A916.png"
+        "equip_img": "https://gilyeons3bucket.s3.ap-northeast-2.amazonaws.com/%E1%84%86%E1%85%A2%E1%86%A8%E1%84%87%E1%85%AE%E1%86%A8%E1%84%91%E1%85%B3%E1%84%85%E1%85%A916.png"
       },
       {
         "id": 8,
-        "equip-code": "nn",
-        "equip-name": "laptop",
-        "equip-brand": "apple",
-        "equip-title": "아이맥",
-        "equip-created": 2019,
+        "equip_code": "nn",
+        "equip_name": "laptop",
+        "equip_brand": "apple",
+        "equip_title": "아이맥",
+        "equip_created": 2019,
         "price": 2840000,
-        "product_img": "https://gilyeons3bucket.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%86%E1%85%A2%E1%86%A8.png"
+        "equip_img": "https://gilyeons3bucket.s3.ap-northeast-2.amazonaws.com/%E1%84%8B%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%86%E1%85%A2%E1%86%A8.png"
       }
     ]
   }

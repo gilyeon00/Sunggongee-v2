@@ -17,6 +17,11 @@
     margin-right: 2.2rem;
 }
 
+.header-center{
+    display: flex;
+    width: 60%;
+}
+
 .menu-btn{
     margin: 1rem;
     background-color: var(--color-main);
@@ -29,7 +34,7 @@
 .logo{
     display: flex;
     align-items: center;
-    color:#fff;
+    color:var(--color-white);
 }
 
 .logo-img{
@@ -40,4 +45,15 @@
 .logo-title{
     font-size: 1.2rem;
     font-family: 'Bebas Neue', cursive;
+}
+
+.header-right{
+    margin-right: 2.2rem;
+}
+
+.user{
+    font-size: 1rem;
+    color: var(--color-white);
+    cursor: pointer;
+    font-weight: 600;
 }

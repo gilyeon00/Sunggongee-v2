@@ -53,6 +53,7 @@
     font-size: 1rem;
     color: var(--color-white);
     font-weight: 600;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 900px){

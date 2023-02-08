@@ -1,0 +1,22 @@
+version: '3'
+
+services:   # 컨테이너
+  frontend:
+    container_name: frontend
+    build: ./frontend           # build되는 지점 - frontend 폴더
+    command: ["npm", "start"]  
+    ports:                      # -p 옵션과 동일
+      - 3000:3000
+    volumes:
+      - ./frontend:/app
+
+      
+  backend:
+    container_name: backend
+    build: ./backend
+    command: sh -c "python manage.py runserver 0.0.0.0:8000"
+    # restart: always             # 컨테이너 다운되면 재기동되게끔
+    ports:
+      - 8000:8000
+    volumes:
+    - .:/user/src/sunggong

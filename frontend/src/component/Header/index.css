@@ -36,8 +36,8 @@
 }
 
 .logo-img{
-    width: 1.2rem;
-    margin-right: 0.2rem;  
+    width: 1.6rem;
+    margin-right: 0.4rem;  
 }
 
 .logo-title{
@@ -53,4 +53,8 @@
     font-size: 1rem;
     color: var(--color-white);
     font-weight: 600;
+}
+
+@media screen and (max-width: 900px){
+    .logo-title, .user{display: none;}
 }

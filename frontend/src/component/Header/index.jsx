@@ -13,7 +13,7 @@ const Header = () => {
                 </button>
                 <div className='logo'>
                         <img src="/image/sungkyulLogo.png" alt="logo" className='logo-img' />
-                        <h1 className='logo-title'>성공이</h1>
+                        <h1 className='logo-title'>여기는 성공이</h1>
                 </div>
             </div>
 

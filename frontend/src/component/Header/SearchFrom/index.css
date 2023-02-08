@@ -16,12 +16,11 @@
     box-sizing: border-box;
 }
 .search-input:focus{
-    border-color: var(--color-sub1);
+    background-color: var(--color-sub1);
     outline: 0;
 }
 .search-btn{
     border: 2px solid var(--color-white);
-    background: none;
     height: 2rem;
     width: 4rem;
     margin-left:0;
@@ -29,5 +28,4 @@
     box-sizing: border-box;
     color: var(--color-white);
     font-weight: 600;
-    cursor: pointer;
 }

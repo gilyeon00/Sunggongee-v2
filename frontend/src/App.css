@@ -11,3 +11,10 @@
   --color-light-gray:#c0c0c0;
   --color-white:#fff;
 }
+
+button{
+  border:none;
+  outline: none;
+  cursor: pointer;
+  background: none;
+}

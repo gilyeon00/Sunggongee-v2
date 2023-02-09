@@ -52,7 +52,8 @@
 }
 
 .user{
-    font-size: 1rem;
+    font-size: 1.3rem;
+    font-family: 'Caveat', cursive;
     color: var(--color-white);
     font-weight: 600;
     cursor: pointer;

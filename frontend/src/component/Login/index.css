@@ -1,5 +1,45 @@
 .login-container{
-    padding-top: 10vh;
+    padding-top: 20vh;
     width: 960px;
+    height: 400px;
     margin: auto;
+    text-align: center;
+    align-items: center;
+}
+.userID.userID {
+    text-align: center;
+    align-items: center;
+}
+.userID, .usePWD {
+    display: flex;
+}
+
+#userID, #userPWD {
+    display: flex;
+    /* align-items: center; */
+    border: 0.5px solid var(--color-light-gray);
+    border-radius: 8px;
+    margin: 0.4rem;
+    height: 3rem;
+    width: 20rem;
+}
+
+.login-btn, .join-btn {
+    border: none;
+    border-radius: 8px;
+    color: var(--color-white);
+    width: 17vw;
+    height: 8vh;
+    font-family: 'Caveat', cursive;
+    font-weight: 400;
+    font-size: 3rem;
+    margin: 0.5rem;
+}
+
+.join-btn {
+    background-color: var(--color-light-gray);
+}
+
+.login-btn{
+    background-color: var(--color-main);
 }

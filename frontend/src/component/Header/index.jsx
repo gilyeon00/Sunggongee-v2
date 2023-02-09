@@ -17,13 +17,15 @@ const Header = () => {
     return (
         <div className='header'>
             <div className='header-left'>
-                <button className='menu-btn'>
-                    <FontAwesomeIcon icon={faBars} />
-                </button>
-                <div className='logo'>
-                        <img src="/image/sunggongLOGO.png" alt="logo" className='logo-img' />
-                        <h1 style={{fontFamily: 'Caveat', fontWeight:800}} className='logo-title'>Sunggongee</h1>
-                </div>
+                    <button className='menu-btn'>
+                        <FontAwesomeIcon icon={faBars} />
+                    </button>
+                <Link to='/'>
+                    <div className='logo'>
+                            <img src="/image/sunggongLOGO.png" alt="logo" className='logo-img' />
+                            <h1 style={{fontFamily: 'Caveat', fontWeight:800}} className='logo-title'>Sunggongee</h1>
+                    </div>
+                </Link>
             </div>
 
             <div className='header-center'>
@@ -32,12 +34,12 @@ const Header = () => {
 
             <div className='header-right'>
             <span className='user'>
-                <span className='user' onClick={()=>{navigate('/login')}} >로그인</span> 
-                    {/* {
+                {/* <span className='user' onClick={()=>{navigate('/login')}} >Login</span>  */}
+                    {
                         user ? 
-                        <span className='user' onClick={()=>dispatch(logout(false))}>로그아웃</span> 
-                        : <span className='user' onClick={()=>{navigate('/login')}} >로그인</span> 
-                    } */}
+                        <span className='user' onClick={()=>dispatch(logout(false))}>Logout</span> 
+                        : <span className='user' onClick={()=>{navigate('/login')}} >Login</span> 
+                    }
                 </span>
             </div>
             

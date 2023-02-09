@@ -18,15 +18,16 @@ const Login = () => {
         <div className='login-container'>
             <form onSubmit={(e)=> {loginUser(e)}} >
                 <div className='userID'>
-                    <div><label htmlFor='userID'>아이디</label></div>
+                    <div><label htmlFor='userID'>ID</label></div>
                     <div><input type="text" id="userID" placeholder="아이디 입력"></input></div>
                 </div>
                 <div className='userPWD'>
-                    <div><label htmlFor='userPWD'>비밀번호</label></div>
+                    <div><label htmlFor='userPWD'>Password</label></div>
                     <div><input type="text" id="userPWD" placeholder="비밀번호 입력"></input></div>
                 </div>
-                <div className='login-btn'>
-                    <input type="submit" value="login"></input>
+                <div>
+                    <button type="submit" className='login-btn'>Login</button>
+                    <button type="submit" className='join-btn'>Join</button>
                 </div>
             </form>
             

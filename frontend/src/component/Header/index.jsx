@@ -21,8 +21,8 @@ const Header = () => {
                     <FontAwesomeIcon icon={faBars} />
                 </button>
                 <div className='logo'>
-                        <img src="/image/sungkyulLogo.png" alt="logo" className='logo-img' />
-                        <h1 className='logo-title'>여기는 성공이</h1>
+                        <img src="/image/sunggongLOGO.png" alt="logo" className='logo-img' />
+                        <h1 style={{fontFamily: 'Caveat', fontWeight:800}} className='logo-title'>Sunggongee</h1>
                 </div>
             </div>
 

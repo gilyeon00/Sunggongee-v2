@@ -3,6 +3,7 @@ import SideMenu from '../component/SideMenu';
 import EquipList from '../component/EquipList';
 import { useDispatch, useSelector } from 'react-redux';
 import { equipListLayout } from '../store/equip/equipSlice';
+import HotEquipSlider from '../component/HotEquipSlider';
 
 const Home = () => {
     const dispatch = useDispatch();
@@ -15,8 +16,8 @@ const Home = () => {
 
     return (
         <>
-            <SideMenu/>
                 <section className='main-content'>
+                    <HotEquipSlider/>
                     { listLayout && <EquipList display={listLayout} /> }
                 </section>
         </>

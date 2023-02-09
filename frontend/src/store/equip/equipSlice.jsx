@@ -22,6 +22,9 @@ const equipSlice = createSlice({
         loading:'true'        
     },
     reducers:{
+        equipListLayout:(state,action) => {
+            state.listLayout=action.payload
+        }
     },
     extraReducers:(builder)=>{
         builder.addCase(getEquipList.pending,(state,action)=>{
@@ -38,4 +41,5 @@ const equipSlice = createSlice({
 
 })
 
+export const { equipListLayout } = equipSlice.actions
 export default equipSlice.reducer

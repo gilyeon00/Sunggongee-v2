@@ -18,3 +18,16 @@ button{
   cursor: pointer;
   background: none;
 }
+  
+.main-content{
+  margin-left: 4rem;
+  margin-top: 3.7rem;
+}
+
+.list{
+  padding:1.5rem;
+}
+.content{
+  display:flex;
+  margin-top: 2.7rem;
+}

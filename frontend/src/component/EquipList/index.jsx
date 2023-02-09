@@ -34,7 +34,7 @@ const EquipList = ({display}) => {
       )
     }
     return (
-      <ul className='equip-list'>
+        <ul className={display === 'grid' ? 'equip-list equip-item-grid' :'equip-list equip-item-row'}>
           {
              data && data.map((item)=>(
                 <EquipItem 

@@ -21,7 +21,7 @@ button{
   
 .main-content{
   margin-left: 4rem;
-  margin-top: 3.7rem;
+  margin-top: 6rem;
 }
 
 .list{
@@ -30,4 +30,9 @@ button{
 .content{
   display:flex;
   margin-top: 2.7rem;
+}
+
+a{
+  text-decoration: none;
+  color:inherit;
 }

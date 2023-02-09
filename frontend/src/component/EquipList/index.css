@@ -1,7 +1,7 @@
 .equip-list{
     display: flex;
     flex-wrap: wrap;
-    width: 960px;
+    width: 1060px;
     margin: auto;
     text-align: left;
     padding-top: 8rem;

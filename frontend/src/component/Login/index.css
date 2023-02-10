@@ -31,6 +31,8 @@
     height: 3rem;
     width: 20rem;
     margin-left: 3rem;
+    justify-content: center;
+    text-align: center;
 }
 
 .login-btn, .join-btn {

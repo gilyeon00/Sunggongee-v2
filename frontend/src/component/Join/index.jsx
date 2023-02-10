@@ -20,11 +20,11 @@ const index = () => {
                         <p htmlFor='userPWD'>Check</p>
                         <input type="text" id="userPWD" placeholder="비밀번호 확인"/>
                     </div>
-                    <div class="login-field">
+                    <div className="login-field">
                         <p>Birth</p>
                             <div className='userBirth'>
-                                <input type="number" placeholder="년(4자)"/>                
-                                <select>
+                                <input id='user-year' type="number" placeholder="년(4자)"/>                
+                                <select id='user-month'>
                                     <option value="">월</option>
                                     <option value="">1월</option>
                                     <option value="">2월</option>
@@ -39,7 +39,40 @@ const index = () => {
                                     <option value="">11월</option>
                                     <option value="">12월</option>
                                 </select>
-                                <input type="number" placeholder="일"/>
+                                <select id='user-day'>
+                                    <option value="">일</option>
+                                    <option value="">1일</option>
+                                    <option value="">2일</option>
+                                    <option value="">3일</option>
+                                    <option value="">4일</option>
+                                    <option value="">5일</option>
+                                    <option value="">6일</option>
+                                    <option value="">7일</option>
+                                    <option value="">8일</option>
+                                    <option value="">9일</option>
+                                    <option value="">10일</option>
+                                    <option value="">11일</option>
+                                    <option value="">12일</option>
+                                    <option value="">13일</option>
+                                    <option value="">14일</option>
+                                    <option value="">15일</option>
+                                    <option value="">16일</option>
+                                    <option value="">17일</option>
+                                    <option value="">18일</option>
+                                    <option value="">19일</option>
+                                    <option value="">20일</option>
+                                    <option value="">21일</option>
+                                    <option value="">22일</option>
+                                    <option value="">23일</option>
+                                    <option value="">24일</option>
+                                    <option value="">25일</option>
+                                    <option value="">26일</option>
+                                    <option value="">27일</option>
+                                    <option value="">28일</option>
+                                    <option value="">29일</option>
+                                    <option value="">30일</option>
+                                    <option value="">31일</option>
+                                </select>
                             </div>
                     </div>
                 </div> 

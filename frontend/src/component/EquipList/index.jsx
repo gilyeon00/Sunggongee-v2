@@ -4,7 +4,7 @@ import EquipItem from '../EquipItem';
 import { useDispatch , useSelector } from 'react-redux';
 import { useEffect } from 'react';
 import { getEquipList } from '../../store/equip/equipSlice';
-import {PropagateLoader} from 'react-spinners';
+import {RingLoader} from 'react-spinners';
 
 const EquipList = ({display}) => {
 
@@ -18,8 +18,8 @@ const EquipList = ({display}) => {
   
   if(loading){
       return (
-        <PropagateLoader
-          size={20}
+        <RingLoader
+          size={100}
           color="var(--color-main)"
           cssOverride={{
             position: `absolute`,

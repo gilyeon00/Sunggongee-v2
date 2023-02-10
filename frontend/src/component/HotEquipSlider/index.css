@@ -2,3 +2,10 @@
     font-family: 'Caveat', cursive;
     color: var(--color-main);
 }
+
+
+.slide-img{
+    width: 14rem;
+    height: 12rem;
+    object-fit: contain;
+}

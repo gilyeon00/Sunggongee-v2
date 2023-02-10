@@ -29,13 +29,13 @@ const HotEquipSlider = () => {
                     prevEl: '.prev'
                 }}
             >
-                <SwiperSlide><img src ="./image/slide/1.png" alt=""/></SwiperSlide>
-                <SwiperSlide><img src ="./image/slide/2.png" alt=""/></SwiperSlide>
-                <SwiperSlide><img src ="./image/slide/3.png" alt=""/></SwiperSlide>
-                <SwiperSlide><img src ="./image/slide/4.png" alt=""/></SwiperSlide>
-                <SwiperSlide><img src ="./image/slide/5.jpeg" alt=""/></SwiperSlide>
-                <SwiperSlide><img src ="./image/slide/6.jpeg" alt=""/></SwiperSlide>
-                <SwiperSlide><img src ="./image/slide/7.png" alt=""/></SwiperSlide>
+                <SwiperSlide><img className='slide-img' src ="./image/slide/1.png" alt=""/></SwiperSlide>
+                <SwiperSlide><img className='slide-img' src ="./image/slide/2.png" alt=""/></SwiperSlide>
+                <SwiperSlide><img className='slide-img' src ="./image/slide/3.png" alt=""/></SwiperSlide>
+                <SwiperSlide><img className='slide-img' src ="./image/slide/4.png" alt=""/></SwiperSlide>
+                <SwiperSlide><img className='slide-img' src ="./image/slide/5.jpeg" alt=""/></SwiperSlide>
+                <SwiperSlide><img className='slide-img' src ="./image/slide/6.jpeg" alt=""/></SwiperSlide>
+                <SwiperSlide><img className='slide-img' src ="./image/slide/7.png" alt=""/></SwiperSlide>
                 {/* <NaviPrev className="prev"/>
                 <NaviNext className="next"/>  */}
             </Swiper>
@@ -48,7 +48,7 @@ export default HotEquipSlider;
 
 
 const EquipSliderBox = styled.div `
-    width: 1200px;
+    width: 1000px;
     height: auto;
     margin: 2rem auto;
     & .swiper-slide img{

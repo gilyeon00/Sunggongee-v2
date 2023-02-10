@@ -55,8 +55,8 @@
 }
 .equip-img{
     width: 10rem;
-    height: auto;
-    /* object-fit:cover; */
+    height: 8rem;
+    object-fit: contain;
 }
 .equip-img-box{
     width: 12rem;

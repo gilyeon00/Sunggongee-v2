@@ -2,6 +2,7 @@ import React from 'react';
 import { useDispatch } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import './index.css'
+import { unitCheck } from '../../lib/unitCheck';
 
 const EquipItem = ({item}) => {
 
@@ -21,7 +22,7 @@ const EquipItem = ({item}) => {
                 </div>
                 <div className='description-box'>
                     <div className='equip-name'>{item.equip_title}</div>
-                    <div className='equip-price'>{item.price}</div>
+                    <div className='equip-price'>{unitCheck(item.price)}</div>
                 </div>
             {/* </div> */}
         </div>

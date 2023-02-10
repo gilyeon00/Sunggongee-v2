@@ -9,16 +9,20 @@
 .equip-item-grid{
     padding:0.5rem;
     display: flex;
+    text-align: center
 }
 
 .equip-item-grid .equip-img{
     margin-bottom: 0.7rem;
     border-radius: 8px;
+    margin: auto;
+    padding: auto;
 }
 .description-box{
-    padding: 0.2rem;
+    padding: 0.3rem;
     color: var(--color-light-gray);
     font-size:0.7rem;
+    text-align: center;
 }
 .equip-name{
     color: var(--color-dark-gray);

@@ -86,27 +86,28 @@
 .watch-list .equip-item-grid .equip-name{width: 50%;}
 
 
-@media screen and (max-width:960px) {
+@media (max-width: 960px) {
     .equip-item{ 
         flex:0 0 20%; 
         /* max-width: 100%; */
     }
 }
 
-@media screen and (max-width:790px) {
+@media (max-width:860px) {
     .equip-item{ 
-        flex:0 0 23%; 
+        flex:0 4 25%; 
     }
 }
 
-@media screen and (max-width:550px) {
+@media (max-width:730px) {
     .equip-item{ 
-        flex: 0 0 20%; 
+        flex:0 3 33%; 
     }
 }
-@media screen and (max-width:415px) {
+
+@media (max-width:500px) {
     .equip-item{ 
-        flex: 1 1 100%; 
-        max-width: 100%;
+        flex:0 2 50%; 
+        width: 100%;
     }
 }

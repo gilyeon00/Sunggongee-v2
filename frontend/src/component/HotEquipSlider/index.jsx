@@ -15,11 +15,20 @@ const HotEquipSlider = () => {
         <h2 className='slider-title'>Today's HOT item</h2>
         <EquipSliderBox>
             <Swiper
-                spaceBetween={20}
-                slidesPerView={3}
-
+                slidesPerView = {1}
+                spaceBetween = {10}
                 modules={[Navigation, Pagination, Autoplay]}
                 pagination={{ clickable: true }}
+                breakpoints = {{
+                    750: {
+                      slidesPerView: 2,  //브라우저가 768보다 클 때
+                      spaceBetween: 40,
+                    },
+                    1024: {
+                      slidesPerView: 3,  //브라우저가 1024보다 클 때
+                      spaceBetween: 50,
+                    },
+                }}
                 autoplay={{
                     delay: 1800,
                     disableOnInteraction:false,

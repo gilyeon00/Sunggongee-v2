@@ -5,6 +5,7 @@ import Header from './component/Header';
 import Login from './component/Login';
 import UserRedirect from './component/Login/UserRedirect';
 import SideMenu from './component/SideMenu';
+import Join from './component/Join';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home/>} />
             <Route path="/login" element={<Login/>} />   
+            <Route path="/join" element={<Join/>} />
             <Route path="/equip/:id" element={<UserRedirect/>} />  
           </Routes>
         </section>

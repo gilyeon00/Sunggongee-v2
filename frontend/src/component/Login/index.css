@@ -1,27 +1,36 @@
 .login-container{
-    padding-top: 20vh;
+    padding-top: 13vh;
     width: 960px;
     height: 400px;
     margin: auto;
-    text-align: center;
-    align-items: center;
+    /* text-align: center; */
+    /* align-items: center; */
 }
-.userID.userID {
-    text-align: center;
-    align-items: center;
+.input-box{
+    padding: 5vh;
+    margin: auto;
 }
-.userID, .usePWD {
+.login-field {
     display: flex;
+    margin: auto;
+    justify-content: center;
+}
+.login-field p{
+    width: 5rem;
+    font-family: 'Caveat', cursive;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: var(--color-dark-gray);
 }
 
-#userID, #userPWD {
+#userID, #userPWD,.userBirth {
     display: flex;
-    /* align-items: center; */
     border: 0.5px solid var(--color-light-gray);
     border-radius: 8px;
     margin: 0.4rem;
     height: 3rem;
     width: 20rem;
+    margin-left: 3rem;
 }
 
 .login-btn, .join-btn {
@@ -38,6 +47,9 @@
 
 .join-btn {
     background-color: var(--color-light-gray);
+}
+.join-btn:hover {
+    background-color: var(--color-main);
 }
 
 .login-btn{
